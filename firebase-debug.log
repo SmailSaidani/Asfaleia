@@ -1,0 +1,78 @@
+[debug] [2022-09-19T15:37:12.189Z] ----------------------------------------------------------------------
+[debug] [2022-09-19T15:37:12.194Z] Command:       F:\Program Files\nodejs\node.exe C:\Users\Smail_Sai\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-19T15:37:12.195Z] CLI Version:   11.9.0
+[debug] [2022-09-19T15:37:12.195Z] Platform:      win32
+[debug] [2022-09-19T15:37:12.196Z] Node Version:  v16.14.0
+[debug] [2022-09-19T15:37:12.197Z] Time:          Mon Sep 19 2022 08:37:12 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-09-19T15:37:12.198Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-19T15:37:12.445Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-19T15:37:12.447Z] > authorizing via signed-in user (asfaleiaveh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\nw tst\asf
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-19T15:37:28.271Z] Using project from CLI flag: asfaleia-vehicule
+[debug] [2022-09-19T15:37:28.277Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/asfaleia-vehicule [none]
+[debug] [2022-09-19T15:37:29.338Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/asfaleia-vehicule 200
+[debug] [2022-09-19T15:37:29.338Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/asfaleia-vehicule {"projectId":"asfaleia-vehicule","projectNumber":"903810675177","displayName":"asfaleia","name":"projects/asfaleia-vehicule","resources":{"hostingSite":"asfaleia-vehicule","storageBucket":"asfaleia-vehicule.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_3df0bd4d-a518-4793-a896-6d842027e4cd"}
+[info] i  Using project asfaleia-vehicule (asfaleia) 
+[info] 
+=== Firestore Setup
+[debug] [2022-09-19T15:37:29.351Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/asfaleia-vehicule/services/firestore.googleapis.com [none]
+[debug] [2022-09-19T15:37:30.632Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/asfaleia-vehicule/services/firestore.googleapis.com 200
+[debug] [2022-09-19T15:37:30.632Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/asfaleia-vehicule/services/firestore.googleapis.com [omitted]
+[debug] [2022-09-19T15:37:30.633Z] >>> [apiv2][query] GET https://appengine.googleapis.com/v1/apps/asfaleia-vehicule [none]
+[debug] [2022-09-19T15:37:31.370Z] <<< [apiv2][status] GET https://appengine.googleapis.com/v1/apps/asfaleia-vehicule 200
+[debug] [2022-09-19T15:37:31.370Z] <<< [apiv2][body] GET https://appengine.googleapis.com/v1/apps/asfaleia-vehicule {"name":"apps/asfaleia-vehicule","id":"asfaleia-vehicule","authDomain":"gmail.com","locationId":"europe-west","codeBucket":"staging.asfaleia-vehicule.appspot.com","servingStatus":"SERVING","defaultHostname":"asfaleia-vehicule.ew.r.appspot.com","defaultBucket":"asfaleia-vehicule.appspot.com","serviceAccount":"asfaleia-vehicule@appspot.gserviceaccount.com","gcrDomain":"eu.gcr.io","databaseType":"CLOUD_FIRESTORE","featureSettings":{"splitHealthChecks":true,"useContainerOptimizedOs":true}}
+[debug] [2022-09-19T15:37:31.370Z] database_type: CLOUD_FIRESTORE
+[debug] [2022-09-19T15:37:31.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-19T15:37:31.371Z] > authorizing via signed-in user (asfaleiaveh@gmail.com)
+[debug] [2022-09-19T15:37:31.371Z] [iam] checking project asfaleia-vehicule for permissions ["firebase.projects.get"]
+[debug] [2022-09-19T15:37:31.372Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/asfaleia-vehicule:testIamPermissions [none]
+[debug] [2022-09-19T15:37:31.373Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/asfaleia-vehicule:testIamPermissions x-goog-quota-user=projects/asfaleia-vehicule
+[debug] [2022-09-19T15:37:31.373Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/asfaleia-vehicule:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-19T15:37:32.498Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/asfaleia-vehicule:testIamPermissions 200
+[debug] [2022-09-19T15:37:32.498Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/asfaleia-vehicule:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-19T15:38:12.761Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\Smail_Sai\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:520:28)
+[error] 
+[error] Error: An unexpected error has occurred.

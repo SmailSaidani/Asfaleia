@@ -1,0 +1,93 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Constat",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "loading",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rembourse",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Constat",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "RDV",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "expert",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "RDVdate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "msgs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "receiver",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nbrV",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nbrV",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nbrV",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
